@@ -1,0 +1,49 @@
+.navbar
+{
+    background-color: #EAF6F6;
+    display: block;
+    text-align: center;
+    
+    
+}
+button a
+{
+    text-decoration: none;
+}
+nav button.sitil1
+{
+    background-color: #FF0063;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+nav button.sitil2
+{
+    background-color: #FF0063;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+nav button.sitil3
+{
+    background-color: #FF0063;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+nav button.sitil1::before{
+    content: "🧙";
+}
+nav button.sitil2::before{
+    content: "💻";
+}
+nav button.sitil3::before{
+    content: "🖥️";
+}
+

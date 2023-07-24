@@ -1,0 +1,61 @@
+.menu{
+    
+    display: inline-block;
+    
+    
+}
+
+.checkbuton
+{
+    display: none;
+}
+.buton
+{
+    background-color: rgb(68, 62, 62);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: .5rem .5rem;
+    display: inline-block;
+    margin-top: 1rem ;
+    margin-left: 2.6rem;
+}
+.menu ul li
+{
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.5rem;
+    background-color: rgb(197, 186, 186);
+    
+}
+nav.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+    margin-right: 3rem;
+    
+}
+.menu ul li:nth-child(2)::before
+{
+    content: "💶";
+}
+.menu ul li:nth-child(3)::before
+{
+    content: "💶";
+}
+.menu ul li:nth-child(4)::before
+{
+    content: "💶";
+}
+nav.menu ul li:nth-child(1)
+{
+background-color: rgb(196, 30, 30);
+}
+
+.checkbuton:checked+.content
+{
+    display: none;
+    background-color: whitesmoke;
+}

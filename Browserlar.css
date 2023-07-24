@@ -1,0 +1,17 @@
+p.aciklama{
+    color: rgb(73, 69, 69);
+}
+table tr.metinler a{
+    font-weight: bold;
+}
+table tr.metinler a:hover
+{
+    background-color: cadetblue;
+    color: crimson;
+}
+ img
+{
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
