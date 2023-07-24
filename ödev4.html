@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alişveriş Sepeti</title>
+    <link rel="stylesheet" href="../ödeviçincss/ödev4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <table border="1" class="tablo">
+        <thead>
+            <tr class="baslik">
+                <th>Ürün Kodu</th>
+                    <th colspan="3">Ürün Adı</th>
+                    <th>Miktar</th>
+                    <th>Birim Fiyatı</th>
+                    <th>Ara Toplam</th>
+                    <th colspan="1"></th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>154654</td>
+                    <td colspan="3">Notebook</td>
+                    <td>1</td>
+                    <td>5400₺</td>
+                    <td>5400₺</td>
+                    <td colspan="1">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>456466</td>
+                    <td colspan="3">Klavye</td>
+                    <td>2</td>
+                    <td>80₺</td>
+                    <td>160₺</td>
+                    <td colspan="1">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>564646</td>
+                    <td colspan="3">Monitör</td>
+                    <td>1</td>
+                    <td>700₺</td>
+                    <td>700₺</td>
+                    <td colspan="1">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>123598</td>
+                    <td colspan="3">Mouse</td>
+                    <td>2</td>
+                    <td>50₺</td>
+                    <td>100₺</td>
+                    <td colspan="">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>613448</td>
+                    <td colspan="3">Play Station</td>
+                    <td>1</td>
+                    <td>2500₺</td>
+                    <td>2500₺</td>
+                    <td colspan="1">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>789799</td>
+                    <td colspan="3">Usb Bellek</td>
+                    <td>3</td>
+                    <td>20₺</td>
+                    <td>60₺</td>
+                    <td colspan="1">
+                        <label for="ekle" class="eklemeikonu"><i class="fa-solid fa-pen-to-square"></i></label>
+                        <input type="checkbox" id="ekle" class="checkbuton" />
+                        <label for="çöp" class="çöpikonu"><i class="fa-solid fa-trash"></i></label>
+                        <input type="checkbox" id="çöp" class="checkbuton" />
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot class="altkisim">
+                <tr class="altsatir">
+                    <td colspan="6"> Toplam</td>
+                    <td>9220₺</td>
+                    <td colspan="1"></td>
+                </tr>
+            </tfoot>
+            
+            
+        </thead>
+    </table>
+    <tr class="bitis">
+        <td class="alisverissonu">
+            <label for="Alışveriş" class="alisverisikonu"> <i class="fa-solid fa-cart-shopping"></i>Alışverişe Devam</label>
+            <input type="checkbox" id="Alışveriş" class="checkbuton " />
+            <label for="Ödeme" class="ödemeikonu"> <i class="fa-regular fa-credit-card"></i>Ödemeye Geç</label>
+            <input type="checkbox" id="Ödeme" class="checkbuton" />
+        </td>
+        
+    </tr>
+  </body>
+</html>
